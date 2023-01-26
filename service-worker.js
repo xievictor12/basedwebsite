@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vicweb/precache-manifest.1a3f5eb4ebace543dd13fbf1bf27e7fb.js"
+  "/basedwebsite/precache-manifest.886f269a8e2fc4c52ab0aa5a45d85fdb.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vicweb/index.html", {
+workbox.routing.registerNavigationRoute("/basedwebsite/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
