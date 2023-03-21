@@ -1,0 +1,11 @@
+@mixin vertical-list {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+@mixin template {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background:rgba(141, 49, 58, 0.4196078431);
+}

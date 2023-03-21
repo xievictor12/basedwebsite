@@ -1,0 +1,120 @@
+@import "./variables.scss";
+@import "./animations/cloud.scss";
+
+h5{
+    margin: auto;
+}
+.template2 {
+    height: 100vh;
+    min-height: 600px;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(.5turn, $background-color2, $transition-fade, $background-color3);
+}
+.content-container2{
+    height: 100%;
+    z-index: 9;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+#name {
+    height: 1.5em;
+    width: 7em;
+    min-width: 7em;
+    position: absolute;
+    top: 1em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 9;
+    text-align: center;
+    font-size: $font-size;
+    border-radius: $border-radius;
+    background: rgba(141, 49, 58, 0.4196078431);
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
+
+}
+#title {
+    height: 1.5em;
+    width: 4em;
+    min-width: 20em;
+    z-index: 9;
+    font-size: 1em;
+    font-family: monospace;
+    position: absolute;
+    top: 9em;
+    left: 9.1em; 
+    right: 0; 
+    margin: auto;
+    background: $burgondy;
+    border-radius: $border-radius;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
+
+}
+.bio {
+    height: 450px;
+    max-width: 60vw;
+    width: 100%;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.285);
+    margin: auto 5vw auto 2vw; 
+    border-width: 0px;
+    border-radius: $border-radius;
+    display: inherit;
+    font-size: small;
+    flex-direction: column;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
+
+}
+.bio-head {
+    font-size: 4em;
+    font-family: monospace;
+}
+.bio-text {
+    margin: auto 4vw;
+    text-align: left;
+    font-size: 1em;
+    overflow: auto;
+}
+.avatar {
+    height: 450px;
+    width: 300px;
+    margin: auto 0vw auto 5vw;
+    border-radius: 15px;
+    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
+}
+
+@media (max-width: 600px){
+    #name {
+        height: 1.5em;
+        font-size: $mobile-font-size;
+        margin: auto auto;
+
+    }
+    #title {
+        left: 3em;
+        top: 6.5em;
+        margin: auto auto;
+    }
+    .avatar {
+        width: 340px;
+        height: 510px;
+        margin: 20vh auto 10vh auto;
+    }
+    .bio {
+        max-width: 80vw;
+        margin: 0vh auto auto auto;
+        height: 60vh;
+    }
+    .template2{
+        height: 160vh;
+    }
+    .content-container2{
+        flex-direction: column;
+        height: 100%;
+    }
+}

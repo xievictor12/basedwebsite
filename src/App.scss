@@ -1,0 +1,17 @@
+@import "./styles/_variables.scss";
+@import "./styles/_mixins.scss";
+.App {
+  background-color: $white;
+  color: $text-color;
+  text-align: center;
+  min-height: 100vh;
+  flex-direction: column;
+  font-size: calc(14px);
+  overflow: hidden;
+  font-family: $default-font-family;
+}
+.App-body{
+  justify-content: center;
+  justify-items:center;
+  
+}
