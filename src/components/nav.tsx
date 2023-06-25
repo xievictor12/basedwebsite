@@ -1,5 +1,5 @@
 import "../styles/nav.scss";
-import logo from '../img/ofLogo.png'
+import logo from '../assets/ofLogo.png'
 
 function Navbar () {
     return(

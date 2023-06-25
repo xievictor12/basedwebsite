@@ -1,20 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
 $black: black;
 $white: white;
+$off-white: rgb(210, 210, 210);
 $grey: grey;
-$burgondy: #8d313a;
+$burgondy: #633338;
 $text-color: #000000;
 
-$background-color1: rgb(68, 149, 59);
-$background-color2: rgba(199, 190, 128, 0.55);
-$background-color3: rgba(141, 49, 49, 0.516);
+$shadow-box: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
 
-$default-font-family: Monospace;
+$background-color1: rgb(32, 40, 121);
+$background-color2: rgb(44, 45, 70);
+$background-color3: rgba(96, 48, 48, 0.516);
+
+$panel-color0: rgba(57, 88, 138, 0.701);
+$panel-color1: rgba(141, 49, 58, 0.4196078431);
+$panel-color2: rgb(124, 108, 103);
+
+$default-font-family: 'Cinzel', serif;
 $font-size: 4em;
 $mobile-font-size: 3em;
-$border-radius: 15px;
+$border-radius-0: 0px;
+$border-radius-1: 15px;
+$border-width-1: 10px;
+$border-style-1: solid;
 $transition-fade: 45%;
 
-$cloud-color: rgb(91, 133, 179);
+$cloud-color: rgb(84, 98, 112);
 $cloud-x1-motion: 30s;
 $cloud-x2-motion: 36s;
 $cloud-x3-motion: 49s;

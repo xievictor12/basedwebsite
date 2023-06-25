@@ -1,3 +1,41 @@
-.landing-vid {
-    max-height: 100vh;
+@import "./variables";
+h1{
+    text-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.693);
+    font-size: 35px;
+    text-align: left;
+    position:absolute;
+    top: 5%;
+    left: 5%;
 }
+video{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    object-fit: cover;
+    z-index: -1;
+}
+.container{
+    margin: 0;
+    padding: 0;
+}
+.overlay{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 115px;
+    color: $off-white;
+    letter-spacing: 5px;
+    justify-content: left;
+}
+.volume{
+    height: 50px;
+    background: $white;
+    bottom: 5%;
+    right: 0;
+    box-shadow: 0.25rem 0.25rem rgba(0, 0, 0, 0.693);
+    border-radius: $border-radius-1 0 0 $border-radius-1;
+    position: absolute;
+}
+

@@ -2,7 +2,9 @@ import Err from "../components/error";
 import { YoutubeProps, YoutubeData } from "customTypes";
 import Template1 from "../components/template1";
 import Template2 from "../components/template2";
-import Template3 from "../components/template3"
+import Template3 from "../components/template3";
+import Template4 from "../components/template4";
+import Template5 from "../components/template5";
 /**
  * Case match coresponding Component and returns a component with content.
  * content returned is determined by contentType. Returns Err page if not derived.
@@ -14,7 +16,7 @@ function Page({contentType}: {contentType: string; }) {
     const YoutubeAuth = {
         channelId: "UCiIB6uB5cIGITWVcXemRfCA",
         key: "AIzaSyAsT0ODpsocky1Ov-NJpjcDEDcN1-tc-W8", 
-        results: 20,
+        results: 16,
     }
     //console.log(YoutubeAuth);
 
@@ -33,11 +35,11 @@ function Page({contentType}: {contentType: string; }) {
             )
         case("Blog"):
             return (
-                <Template2/>
+                <Template4/>
             )
         case("Contact"):
             return (
-                <Template2/>
+                <Template5/>
             )
     }
 
