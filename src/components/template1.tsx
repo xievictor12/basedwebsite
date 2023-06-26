@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import Video from "../assets/test.mp4";
+import Video from "../assets/test.webm";
 import Muted from "../assets/icons/Muted.svg"
 import Unmuted from "../assets/icons/volumeOn.svg"
 import "../styles/template1.scss";
