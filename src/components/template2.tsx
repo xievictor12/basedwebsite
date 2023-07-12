@@ -5,7 +5,7 @@ function Template2(){
     return(
         <div className="template2">
             <h2 id="name">Victor Xie</h2>
-            <h5 id="title">Professional Musician & Pianist</h5>
+            <h5 id="title">Musician & Pianist</h5>
             <div className="content-container2">
                 <img className="avatar" src={Avatar}/>
                 

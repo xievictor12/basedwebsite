@@ -91,7 +91,7 @@
 /* OBJECTS */
 
 .cloud {
-	background: $cloud-color;
+	background: $cloud-color-0;
 	background: -moz-linear-gradient(top,  #fff 5%, #f1f1f1 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(5%,#fff), color-stop(100%,#f1f1f1));
 	background: -webkit-linear-gradient(top,  #fff 5%,#f1f1f1 100%);
@@ -106,7 +106,7 @@
 	
 	-webkit-box-shadow:  .8rem 0.8rem rgba(0, 0, 0, 0.119);
 	-moz-box-shadow:  .8rem 0.8rem rgba(0, 0, 0, 0.119);
-	box-shadow: .8rem 0.8rem rgba(0, 0, 0, 0.094);
+	box-shadow: .8rem 0.8rem $cloud-color-1;
 
 	height: 85px;
 	position: relative;
@@ -114,7 +114,7 @@
 }
 
 .cloud:after, .cloud:before {
-	background: $cloud-color;
+	background: $cloud-color-0;
 	content: '';
 	position: absolute;
 	z-indeX: -1;

@@ -11,11 +11,14 @@ import Template5 from "../components/template5";
  * @param: contentType: string => determines template returned.
  * @returns Component coorisponding to contentType
  */
+
 function Page({contentType}: {contentType: string; }) {
     // Need to develope pages
+    const api_key: string = process.env.REACT_APP_GOOGLE_API_KEY!;
+    const channel_id: string = process.env.REACT_APP_CHANNEL_ID!;
     const YoutubeAuth = {
-        channelId: "UCiIB6uB5cIGITWVcXemRfCA",
-        key: "AIzaSyAsT0ODpsocky1Ov-NJpjcDEDcN1-tc-W8", 
+        channelId: channel_id,
+        key: api_key, 
         results: 16,
     }
     //console.log(YoutubeAuth);

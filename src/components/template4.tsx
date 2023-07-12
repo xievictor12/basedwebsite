@@ -13,10 +13,12 @@ function Template4() {
                     <h5 className="header-description">{"<3"}</h5>
                 </div>
                     <div className="blog-container">
-                        <img className="blog-img" src={Avatar}/>
+                        <div className="flex-container">
+                            <time>{jsonData.data.time}</time>
+                            <img className="blog-img" src={Avatar}/>
+                        </div>
                         <div className="blog-description">
                             <h2 className="blog-title">{jsonData.data.title}</h2>
-                            <time>{jsonData.data.time}</time>
                             <p>{jsonData.data.entry}</p>
                         </div>
                     </div>

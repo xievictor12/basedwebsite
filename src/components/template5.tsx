@@ -1,5 +1,5 @@
 import "../styles/template5.scss"
-import Icon from "../assets/contact-1.png"
+import Icon from "../assets/banner.png"
 
 function Template5(){
 /*
@@ -17,8 +17,7 @@ function handleChange(){
     return (
         <div className="template5">
             <div className="container">
-                <img className="contact-icon" src={Icon}>
-                </img>
+                <img className="contact-icon" src={Icon}/>
                 <form className="contact-form" method="post" action="mailto:peterhuiwang1995@gmail.com">
                     <div className="first-layer">
                         <input className="form-name" placeholder="Name" id="input" type="text"/>

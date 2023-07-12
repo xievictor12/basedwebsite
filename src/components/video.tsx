@@ -1,5 +1,5 @@
 import { itemType } from "customTypes";
-function Video(props: {index: number, video: itemType}){
+function Video(props: {key: string, video: itemType}){
     /*
         Note: A well known problem of the Youtube API is chacters returned from the api
               results in HTML characters. Some solutions to this problem is:
@@ -11,10 +11,10 @@ function Video(props: {index: number, video: itemType}){
         return str.replace(/&#(\d+);/g, (match, dec) => String.fromCharCode(dec))
     }
     let {kind, etag, id, snippet} = props.video;
-    let url:string = `https://www.youtube.com/embed/${id.videoId}?controls=1&amp;autoplay=1&amp;modestbranding=1;`
+    let url:string = `https://www.youtube.com/embed/${id.videoId};`
     snippet.title = unescape(snippet.title);
     return (
-        <li key={props.index+1}>
+        <li key="1" >
             <iframe className="video"
                 width={375}
                 height={210}

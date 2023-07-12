@@ -1,9 +1,13 @@
 @import "./variables.scss";
+time{
+    color: orange;
+    font-size: 24px;
+}
 .template4{
     height: 100vh;
     width: auto;
     position: relative;
-    background: $off-white;
+    background: $background-color4;
 }
 .header{
     margin: 5vh auto 5vh auto;
@@ -14,15 +18,24 @@
     height: 100%;
     width: 100%;
 }
+.blog-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1 1 0px;
+    max-height: 50vh;
+}
 .blog-img{
-    height: 400px;
-    width: auto;
-    margin: auto;
-    border-radius: 15px;
-    box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
+    width: 875px;
+    flex-shrink: 100%;
+    border-radius: 0 15em 15em 0;
 }
 .blog-description{
-    margin: 2% 25% 5% 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 .blog-title{
     font-size: x-large;

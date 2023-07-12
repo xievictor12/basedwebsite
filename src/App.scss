@@ -1,8 +1,9 @@
 @import "./styles/_variables.scss";
 @import "./styles/_mixins.scss";
+
 .App {
   background-color: $white;
-  color: $text-color;
+  color: $black;
   text-align: center;
   min-height: 100vh;
   flex-direction: column;

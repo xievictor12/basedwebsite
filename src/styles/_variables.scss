@@ -1,31 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
-$black: black;
-$white: white;
-$off-white: rgb(210, 210, 210);
-$grey: grey;
-$burgondy: #633338;
-$text-color: #000000;
+
+$white: #ffffff;
+$black: #000000;
 
 $shadow-box: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
 
-$background-color1: rgb(32, 40, 121);
-$background-color2: rgb(44, 45, 70);
-$background-color3: rgba(96, 48, 48, 0.516);
+$background-color1: #b5c4ba;
+$background-color2: #829790;
+$background-color3: #d2d2d2;
+$background-color4: #626a7d;
+$background-color5: #fff7e2;
 
-$panel-color0: rgba(57, 88, 138, 0.701);
-$panel-color1: rgba(141, 49, 58, 0.4196078431);
-$panel-color2: rgb(124, 108, 103);
+$title-color: #85b5a4;
+$button-color: #b5c4ba;
+$panel-color0: #e8d7bf;
+$panel-color1: #f1e2cc; 
+$panel-color2: #b5c4ba;
 
 $default-font-family: 'Cinzel', serif;
 $font-size: 4em;
 $mobile-font-size: 3em;
 $border-radius-0: 0px;
-$border-radius-1: 15px;
+$border-radius-1: 5px;
+$border-radius-2: 15px;
 $border-width-1: 10px;
 $border-style-1: solid;
 $transition-fade: 45%;
 
-$cloud-color: rgb(84, 98, 112);
+$cloud-color-0: #bcc9c0;
+$cloud-color-1: #9db8a5;
 $cloud-x1-motion: 30s;
 $cloud-x2-motion: 36s;
 $cloud-x3-motion: 49s;

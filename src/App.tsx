@@ -10,6 +10,8 @@ import './App.scss';
 import Page from "./components/page";
 import Navbar from './components/nav';
 
+//      <SwiperSlide><Page contentType='Music'/></SwiperSlide>
+
 function App() {
 
   // <Page contentType='Footer'></Page>
