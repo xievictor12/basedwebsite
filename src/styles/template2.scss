@@ -62,14 +62,13 @@ h5{
 
 }
 .bio {
-    height: 450px;
+    height: 500px;
     align-self: center;
     background: $panel-color0;
     margin-left: 10px;
     width: 100%;
     max-width: 60vw;
     font-size: small;
-    flex-direction: column;
 }
 .bio-head {
     margin: auto 0 0 0;
@@ -78,17 +77,18 @@ h5{
 }
 .bio-text {
     margin: 5vh 3vw;
+    height: 65%;
     text-align: left;
     font-size: 12px;
-    overflow: hidden;
+    overflow-y: auto;
 }
 .avatar {
-    height: 450px;
+    height: 500px;
     width: 311px;
     align-self: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 775px){
     #name {
         height: 1.5em;
         font-size: $mobile-font-size;
@@ -109,6 +109,9 @@ h5{
         max-width: 80vw;
         margin: 5vh auto 5vh auto;
         height: 60vh;
+    }
+    .bio-text {
+        height: 70%;
     }
     .template2{
         height: 100vh;

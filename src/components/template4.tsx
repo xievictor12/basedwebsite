@@ -10,7 +10,6 @@ function Template4() {
                 <div className="blog">
                 <div className="header">
                     <h2 className="header-title">Blog</h2>
-                    <h5 className="header-description">{"<3"}</h5>
                 </div>
                     <div className="blog-container">
                         <div className="flex-container">
