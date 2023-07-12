@@ -46,4 +46,16 @@ time{
     display:flex;
     flex-direction: column;
     overflow-y: scroll;
-}   
+}
+
+@media (max-width: 775px){
+    .blog-container{
+        flex-direction: column;
+    }
+    .blog-description{
+        padding: 10px;
+    }
+    .blog-img{
+        padding-right: 7%;
+    }
+}

@@ -24,9 +24,8 @@ function App() {
       modules={[Navigation, Pagination, Scrollbar, A11y]}
       spaceBetween={0}
       slidesPerView={1}
+      cssMode={true}
       pagination={{ clickable: true }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide><Page contentType="Landing"/></SwiperSlide>
       <SwiperSlide><Page contentType='Bio'/></SwiperSlide>
