@@ -10,7 +10,7 @@ h5{
     width: auto;
     position: relative;
     overflow: hidden;
-    background: linear-gradient(.5turn, $background-color1, $transition-fade, $background-color2);
+    background: linear-gradient(to bottom , $background-color1, $transition-fade, $background-color2);
 }
 .content-container2 {
     height: 100%;
@@ -52,7 +52,6 @@ h5{
     min-width: 20em;
     z-index: 9;
     font-size: 1em;
-    font-family: monospace;
     position: absolute;
     top: 9em;
     left: 15.1em; 
@@ -84,7 +83,7 @@ h5{
 }
 .avatar {
     height: 500px;
-    width: 311px;
+    width: auto;
     align-self: center;
 }
 

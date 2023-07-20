@@ -3,7 +3,6 @@ import jsonData from "../testdata/testBlog.json"
 import Avatar from "../assets/DSC03029.png";
 
 function Template4() {
-    console.log(jsonData)
     return (
         <div className="template4">
             <div className="container">
@@ -14,7 +13,7 @@ function Template4() {
                     <div className="blog-container">
                         <div className="flex-container">
                             <time>{jsonData.data.time}</time>
-                            <img className="blog-img" src={Avatar}/>
+                            <img className="blog-img" alt="img" src={Avatar}/>
                         </div>
                         <div className="blog-description">
                             <h2 className="blog-title">{jsonData.data.title}</h2>
