@@ -54,7 +54,6 @@ function Template1() {
     }
 
     function videoHandler(){
-            console.log("again?")
             if(videoRef.current?.muted ==  true && muted == true){
                 videoRef.current.muted = false;
                 videoRef.current.volume = .5;
