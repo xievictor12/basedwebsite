@@ -1,10 +1,31 @@
-# Getting Started with Create React App
+# Victors Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a project designated for Victor Xie. 
+UI developed by Lauren.
+Developement by Shen.
 
-## Available Scripts
+This project was created with:
+React.js\
+Node.js\
+Swiper.js\
+typescript\
+SCSS (Pure)\
+Storybook\
+Amazon AWS\
+Youtube Cloud API
 
-In the project directory, you can run:
+This project is a monorepo. 
+It's maintained by Shen and further developement is controlled by him.
+
+# Available Scripts
+To run this project locally, there are simple steps to do so.
+First you need to clone this project, then run any of these commands.
+
+## Required
+
+### `npm i`
+Install dependencies.\
+Installs all dependencies for this project.
 
 ### `npm start`
 
@@ -13,6 +34,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+## Optional
 
 ### `npm test`
 
@@ -39,8 +62,18 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `npm run deploy`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Push build to github pages and builds the website for deployment.
+DO NOT run this command on any branch other than master. This will create conflicts.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### `npm run storybook`
+
+Runs the Storybook for component developement review.\
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
+
+# Contact
+
+Feel free to create issues if you think there are any improvements and features we can implement. 
+This is currently open-source, so feel free to take some snippets of code or take the structure.
+For other questions, see my github: https://github.com/shen-ui.

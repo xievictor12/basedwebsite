@@ -21,7 +21,6 @@ iframe{
     box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.693);
     height: 30vh;
     width: 40vw;
-    max-width:550px;
 }
 .header-title {
     height: 1.5em;
@@ -53,9 +52,12 @@ iframe{
     flex-direction: column;
     justify-content: center;
 }
-
+.video-list>:nth-child(n) .description-box {
+    padding: 10px 3vw;
+}
 .video-list>:nth-child(n) .description-text {
     margin:auto;
+
 }
 .video-list>:nth-child(n) .title-text {
     margin: auto;
