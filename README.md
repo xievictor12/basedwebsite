@@ -7,13 +7,15 @@ Developement by Shen.
 
 ## Available Scripts
 
-This project is a monorepo. It's maintained by Shen and further developement is controlled by him.
+This project is a monorepo. 
+It's maintained by Shen and further developement is controlled by him.
 
+# How-To
 To run this project locally, there are simple steps to do so.
 
 First you need to clone this project, then run any of these commands.
 
-# Required
+## Required
 
 ### `npm i`
 Install dependencies.\
@@ -27,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-# Optional
+## Optional
 
 ### `npm test`
 
