@@ -1,5 +1,5 @@
 import "../styles/template2.scss";
-import Avatar from "../assets/DSC03224.png";
+import Avatar from "../assets/headshot.jpg";
 
 function Template2(){
     return(
