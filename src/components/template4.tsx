@@ -15,9 +15,10 @@ function Template4() {
                             <time>{jsonData.data.time}</time>
                             <img className="blog-img" alt="img" src={Avatar}/>
                         </div>
-                        <div className="blog-description">
+                        <div className="blog-text">
                             <h2 className="blog-title">{jsonData.data.title}</h2>
-                            <p>{jsonData.data.entry}</p>
+                            <div className="blog-divider"/>
+                            <p className="blog-description">{jsonData.data.entry}</p>
                         </div>
                     </div>
                 </div>
