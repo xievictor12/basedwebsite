@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+
+import './index.css';
+
+//FONTS
+import './assets/fonts/Bodoni/Bodoni Bold Cyrillic.otf'
+import './assets/fonts/Bodoni/Bodoni Cyrillic.otf'
+import './assets/fonts/Gotham/Gotham-Medium.otf'
+import './assets/fonts/Gotham/Gotham-Light.otf'
+
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement

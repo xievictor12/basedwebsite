@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "BodoniCyrillic";
+    src: local("BodoniCyrillic"),
+    url("./assets/fonts/Bodoni/Bodoni\ Cyrillic.otf") format("truetype");
+    font-weight:normal;
+}
+@font-face {
+    font-family: "BodoniCyrillic";
+    src: local("BodoniCyrillic"),
+    url("./assets/fonts/Bodoni/Bodoni\ Bold\ Cyrillic.otf") format("truetype");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "Gotham";
+    src: local("Gotham"),
+    url("./assets/fonts/Gotham/Gotham-Medium.otf") format("truetype");
+    font-weight: medium;
+}

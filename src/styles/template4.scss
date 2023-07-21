@@ -1,4 +1,10 @@
 @import "./variables.scss";
+.blog{
+    height:100%;
+    display:flex;
+    flex-direction: column;
+    overflow-y: scroll;
+}
 time{
     color: orange;
     font-size: 24px;
@@ -30,22 +36,27 @@ time{
     flex-shrink: 100%;
     border-radius: 0 15em 15em 0;
 }
-.blog-description{
+.blog-text{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: $text-color;
     height: 100%;
     width: 100%;
+    padding: 15px;
+    overflow: hidden;
 }
 .blog-title{
-    font-size: x-large;
+    font-size: xx-large;
     font-weight: bold;
 }
-.blog{
-    height:100%;
-    display:flex;
-    flex-direction: column;
-    overflow-y: scroll;
+.blog-divider{
+    height: 5px;
+    width: 100px;
+    margin: 15px auto;
+    align-self: center;
+    border-radius: $border-radius-1;
+    background: $divider-color;
 }
 
 @media (max-width: 775px){

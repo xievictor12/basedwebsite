@@ -24,7 +24,7 @@ function handleChange(){
                         <input className="form-email" id="input" placeholder="E-Mail" type="text"/>
                     </div>
                     <textarea className="form-text" id="form-input"/>
-                    <input className="form-submit" type="submit" value="Send"></input>
+                    <input className="form-submit" type="submit" value="SEND"></input>
                 </form>
             </div>
         </div>

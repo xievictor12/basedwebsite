@@ -1,4 +1,5 @@
 @import "./variables.scss";
+
 .template5{
     height:100vh;
     width:100vw;
@@ -37,9 +38,10 @@
     border-bottom:solid #000000 1px;
 }
 .form-submit {
-    background:$button-color;
+    background-color:$button-color !important;
     width: 55px;
     border-radius: $border-radius-2;
+    font-family: "Gotham";
 }
 #input:focus {
     border: none;
