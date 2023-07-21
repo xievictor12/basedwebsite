@@ -4,13 +4,10 @@ This is a project designated for Victor Xie.
 UI developed by Lauren.
 Developement by Shen.
 
-
-## Available Scripts
-
 This project is a monorepo. 
 It's maintained by Shen and further developement is controlled by him.
 
-# How-To
+# Available Scripts
 To run this project locally, there are simple steps to do so.
 
 First you need to clone this project, then run any of these commands.
