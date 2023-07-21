@@ -4,12 +4,21 @@ This is a project designated for Victor Xie.
 UI developed by Lauren.
 Developement by Shen.
 
+This project was created with:
+React.js
+Node.js
+Swiper.js
+typescript
+SCSS (Pure)
+Storybook
+Amazon AWS
+Youtube Cloud API
+
 This project is a monorepo. 
 It's maintained by Shen and further developement is controlled by him.
 
 # Available Scripts
 To run this project locally, there are simple steps to do so.
-
 First you need to clone this project, then run any of these commands.
 
 ## Required
