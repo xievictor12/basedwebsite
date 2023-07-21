@@ -12,7 +12,7 @@ typescript\
 SCSS (Pure)\
 Storybook\
 Amazon AWS\
-Youtube Cloud API\
+Youtube Cloud API
 
 This project is a monorepo. 
 It's maintained by Shen and further developement is controlled by him.
