@@ -62,6 +62,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@storybook/addon-actions": "^6.5.16",
     "@storybook/addon-essentials": "^7.1.0",
     "@storybook/addon-interactions": "^6.5.16",

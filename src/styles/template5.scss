@@ -3,17 +3,18 @@
 .template5{
     height:100vh;
     width:100vw;
+    position: absolute;
     background: $background-color5;
-}
-.contact-icon{
-    height: auto;
-    width: 500px;
-    margin: auto;
-    padding: auto;
 }
 .container{
     height:100%;
     width:100%;
+    position: fixed;
+}
+.contact-icon{
+    height: auto;
+    width: 500px;
+    margin: 85px auto 0 auto;
 }
 .contact-form{
     display:flex;
@@ -28,7 +29,7 @@
     font-style: italic;
 }
 .first-layer{
-    margin: 10% 0 10% 0;
+    margin: 5% 0 10% 0;;
 }
 #input {
     background-color: transparent;

@@ -68,7 +68,7 @@ function Template1() {
     return (
         <div className="container">
             <div className="overlay">
-                <h1><b>VICTOR XIE</b> <big>|</big> Professional Pianist</h1>
+                <h1><b>VICTOR XIE</b> <big>|</big>  Performer & Composer</h1>
                 <img src={setIcon()} className="volume" onClick={() => videoHandler()}/>
 
             </div>
