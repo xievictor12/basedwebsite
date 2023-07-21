@@ -5,14 +5,14 @@ UI developed by Lauren.
 Developement by Shen.
 
 This project was created with:
-React.js
-Node.js
-Swiper.js
-typescript
-SCSS (Pure)
-Storybook
-Amazon AWS
-Youtube Cloud API
+React.js\
+Node.js\
+Swiper.js\
+typescript\
+SCSS (Pure)\
+Storybook\
+Amazon AWS\
+Youtube Cloud API\
 
 This project is a monorepo. 
 It's maintained by Shen and further developement is controlled by him.
@@ -66,6 +66,11 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 
 Push build to github pages and builds the website for deployment.
 DO NOT run this command on any branch other than master. This will create conflicts.
+
+### `npm run storybook`
+
+Runs the Storybook for component developement review.\
+Open [http://localhost:6006](http://localhost:6006) to view it in the browser.
 
 # Contact
 
