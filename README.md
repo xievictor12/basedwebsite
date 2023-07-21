@@ -56,6 +56,7 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 ### `npm run deploy`
 
 Push build to github pages and builds the website for deployment.
+DO NOT run this command on any branch other than master. This will create conflicts.
 
 # Contact
 
